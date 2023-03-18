@@ -2,7 +2,7 @@ package okta
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	articulateOkta "github.com/articulate/oktasdk-go/okta"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"

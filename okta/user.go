@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/okta/okta-sdk-golang/okta"
 	"github.com/terraform-providers/terraform-provider-okta/sdk"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"reflect"
 	"time"
