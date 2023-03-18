@@ -2,7 +2,7 @@ package okta
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/okta/okta-sdk-golang/okta"
 
